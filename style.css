@@ -4,24 +4,24 @@ body {
 
 @font-face {
     font-family: 'Josefin Sans';
-    src: url(https://github.com/googlefonts/josefinsans/raw/master/fonts/otf/JosefinSans-Light.otf) format("opentype");
-    src: url(https://github.com/googlefonts/josefinsans/raw/master/fonts/ttf/JosefinSans-Light.ttf) format("truetype");
+    src: url(static/JosefinSans-Light.otf) format("opentype");
+    src: url(static/JosefinSans-Light.ttf) format("truetype");
     font-style: normal;
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Josefin Sans';
-    src: url(https://github.com/googlefonts/josefinsans/raw/master/fonts/ttf/JosefinSans-Regular.ttf) format("opentype");
-    src: url(https://github.com/googlefonts/josefinsans/raw/master/fonts/otf/JosefinSans-Regular.otf) format("truetype");
+    src: url(static/JosefinSans-Regular.otf) format("opentype");
+    src: url(static/JosefinSans-Regular.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Josefin Sans';
-    src: url(https://github.com/googlefonts/josefinsans/raw/master/fonts/otf/JosefinSans-Bold.otf) format("opentype");
-    src: url(https://github.com/googlefonts/josefinsans/raw/master/fonts/ttf/JosefinSans-Bold.ttf) format("truetype");
+    src: url(static/JosefinSans-Bold.otf) format("opentype");
+    src: url(static/JosefinSans-Bold.ttf) format("truetype");
     font-style: normal;
     font-weight: bold;
 }
@@ -251,6 +251,8 @@ img {
 .ag-timeline-card_desc {
     line-height: 1.45;
 
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
     font-size: 16px;
     color: #fff;
 }
