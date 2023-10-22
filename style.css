@@ -28,6 +28,8 @@ body {
 
 img {
     max-width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .ag-format-container {
@@ -244,7 +246,7 @@ img {
 
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     color: #fff;
 }
 
