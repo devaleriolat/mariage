@@ -1,0 +1,432 @@
+/*
+CSS Event Custom
+Copyright: 2011-2023. Zankyou Ventures S.L.
+All rights reserved.
+*/
+
+/* Background */
+
+body {
+			font-family: "Josefin Sans", sans-serif	}
+
+.theme-background {
+				background-image: url(https://asset1.zankyou.com/images/background/eb4/0da4/2000//e/1055915/-/back-1681127064.jpg);
+		background-position: center top;
+					background-size: cover;
+				background-attachment: fixed;
+		background-color: #;
+}
+
+	/* Title fonts */
+
+	.title-font {
+		font-family: "Josefin Sans", sans-serif	}
+
+	/* Title fonts */
+
+	.header-font {
+		font-family: "Josefin Sans", sans-serif;
+	}
+
+	.body-font {
+		font-family: "Josefin Sans", sans-serif	}
+
+/*
+Links color
+Sets color to every link in public website and also to .custom-link
+A new selector was added to change color in "read more" text in articles
+*/
+
+a,
+a:hover,
+a:focus,
+.custom-link,
+.custom-link:hover,
+.custom-link:active,
+.custom-link:focus,
+.more__link.custom-link,
+.more__link.custom-link:hover,
+.less__link.custom-link,
+.less__link.custom-link:hover {
+	color: #36597f;
+}
+
+/* Changes link color to TinyMCE standard links */
+
+.item-text a,
+.item-text a:hover,
+.item-text a:active,
+.item-text a:visited,
+a:focus {
+	color: #36597f;
+}
+
+/* Zankyou logos */
+
+.zk-logo-event__zankyou,
+.zk-logo-event__container:hover .zk-logo-event__zankyou {
+	background: url(/image/miscellany/logos/zankyou-black.png) center center no-repeat;
+	background-size: 100px;
+}
+
+.zk-logo-event__printemps,
+.zk-logo-event__container:hover .zk-logo-event__partner {
+	background: url(/image/miscellany/logos/partners/zankyou-printemps.png) center center no-repeat;
+	background-size: 135px;
+}
+
+.zk-logo-event__kaufhof,
+.zk-logo-event__container:hover .zk-logo-event__partner {
+	background: url(/image/miscellany/logos/partners/zankyou-kaufhof.png) center center no-repeat;
+	background-size: 135px;
+}
+
+.zk-logo-event__amazon-it,
+.zk-logo-event__container:hover .zk-logo-event__partner {
+	background: url(/image/miscellany/logos/partners/zankyou-amazon-it.svg) center center no-repeat;
+	background-size: 135px;
+}
+
+.zk-logo-event__amazon-es,
+.zk-logo-event__container:hover .zk-logo-event__partner {
+	background: url(/image/miscellany/logos/partners/zankyou-amazon-es.svg) center center no-repeat;
+	background-size: 135px;
+}
+
+.zk-logo-event__amazon-uk,
+.zk-logo-event__container:hover .zk-logo-event__partner {
+	background: url(/image/miscellany/logos/partners/zankyou-amazon-uk.svg) center center no-repeat;
+	background-size: 135px;
+}
+
+.zk-logo-event__amazon-de,
+.zk-logo-event__container:hover .zk-logo-event__partner {
+	background: url(/image/miscellany/logos/partners/zankyou-amazon-de.svg) center center no-repeat;
+	background-size: 135px;
+}
+
+/* Main colors */
+
+.custom-primary__bg {
+	background-color: #83a697;
+}
+
+.custom-primary__border {
+	border-color: #5c7f70;
+}
+
+.custom-primary__border-color {
+	border-color: #83a697;
+}
+
+.custom-primary__border-bottom {
+	border-color: #83a697;
+}
+
+.custom-primary__color {
+	color: #83a697 !important;
+}
+
+.custom-primary__button {
+	background-color: #83a697;
+	border-color: #83a697;
+	color: #ffffff;
+}
+
+.custom-primary__button:hover,
+.custom-primary__button:focus {
+	background-color: #edc9a6;
+	border-color: #edc9a6;
+	color: #000000;
+}
+
+.custom-primary__button--border {
+	border-color: #83a697;
+	color: #83a697;
+}
+
+.custom-primary__button--border:hover,
+.custom-primary__button--border:focus {
+	background-color: #83a697 !important;
+	border-color: #83a697 !important;
+	color: #ffffff !important;
+}
+
+.custom-primary__txt {
+	color: #83a697;
+}
+
+.zk-input-checkbox [type='checkbox']:checked + .check::before {
+	background: #faf0e6;
+	border: 1px solid #faf0e6;
+}
+
+#formPayment .zk-input-checkbox [type='checkbox']:checked + .check::before {
+	background: #5c7f70;
+	border-color: #5c7f70;
+}
+
+#formPayment .zk-input-checkbox .custom-link {
+	color: #5c7f70;
+}
+
+/* Changes bottom border color to pills in guestbook */
+
+.pills .pills__item:hover .pills__cta,
+.pills .pills__item:hover .pills__cta .icon,
+.pills .pills__item.is-active .pills__cta,
+.pills .pills__item.is-active:hover .pills__cta,
+.pills .pills__item.is-active .pills__cta .icon,
+.pills__item.is-active:hover .pills__cta .icon {
+	color: #83a697;
+}
+
+.pills__item.is-active:after {
+	border-color: #83a697;
+}
+
+/* Set font for buttons and links in event */
+
+	.couple-layout--wrapper .button,
+	.couple-layout--wrapper .button .text-header {
+		font-family: "Josefin Sans", sans-serif	}
+
+
+/*
+Menu settings
+When menu has background but doesn't have secondary color
+*/
+
+.menu-wedding li::after {
+	color: #83a697;
+}
+
+.custom-menu__bg li .custom-menu__link {
+	color: #83a697;
+}
+
+.custom-menu__bg li.active,
+.custom-menu__bg li:hover {
+	background-color: #83a697;
+}
+
+.custom-menu__bg li.active .custom-menu__link,
+.custom-menu__bg li:hover .custom-menu__link {
+	background-color: #83a697;
+	color: #faf0e6;
+}
+
+
+.menu-wedding__item.active .custom-menu__link,
+.menu-wedding__item:hover .custom-menu__link {
+	background-color: #83a697;
+	color: #faf0e6;
+}
+
+/* When menu doesn't have background and doesn't have secondary color */
+
+.custom-menu__nobg li .custom-menu__link {
+	color: #83a697;
+}
+
+.custom-menu__nobg li.active .custom-menu__link,
+.custom-menu__nobg li:hover .custom-menu__link {
+	background-color: #83a697;
+	color: #ffffff;
+}
+
+/* When menu has background and also has secondary color */
+
+.custom-menu__bg-sec li .custom-menu__link {
+	background-color: #faf0e6;
+	color: #83a697;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.responsive-menu {
+		background-color: #5c7f70;
+	}
+
+	.menu-wedding li.active,
+	.menu-wedding li:hover {
+		background-color: #83a697;
+	}
+
+	/* This help us to improve wedding menu in mobile */
+
+	.menu-wedding.custom-menu__nobg li .custom-menu__link,
+	.menu-wedding.custom-menu__bg-sec li .custom-menu__link,
+	.menu-wedding.custom-menu__bg li .custom-menu__link {
+		background-color: #5c7f70;
+		color: #ffffff;
+	}
+
+	.menu-wedding.custom-menu__nobg li.active .custom-menu__link,
+	.menu-wedding.custom-menu__nobg li:hover .custom-menu__link,
+	.menu-wedding.custom-menu__bg-sec li.active .custom-menu__link,
+	.menu-wedding.custom-menu__bg-sec li:hover .custom-menu__link,
+	.menu-wedding.custom-menu__bg li.active .custom-menu__link,
+	.menu-wedding.custom-menu__bg li:hover .custom-menu__link {
+		background-color: #83a697;
+		color: #faf0e6;
+	}
+}
+
+/* For flags header and login / zk logo header */
+
+.header-event__button {
+	background-color: #83a697;
+	color: #ffffff;
+}
+
+.header-event__button:hover,
+.header-event__button:active,
+.header-event__button:focus {
+	background-color: #5c7f70;
+	color: #ffffff;
+}
+
+@media only screen and (min-width: 767px) {
+
+	.header-event {
+		background: transparent;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.header-event {
+		background-color: #83a697;
+	}
+
+	.header-event__menu {
+		background-color: transparent;
+		border-color: #ffffff;
+		color: #ffffff;
+	}
+
+	/* Resets zankyou-login in mobile */
+
+	.header-event__button,
+	.header-event__menu:hover,
+	.header-event__menu:active,
+	.header-event__menu:focus {
+		background: transparent;
+		color: #ffffff;
+	}
+}
+
+/* Secondary color */
+
+.custom-secondary__txt {
+	color: #faf0e6;
+}
+
+/* Dark main color */
+
+.custom-primary__dark {
+	background-color: #5c7f70;
+}
+
+/* Header and title color (only for classic and legacy) */
+
+.event-header.custom-header {
+	background-color: #fff;
+}
+
+.js-header-title {
+	color: #ffffff;
+}
+
+/* Title color (except classic and legacy) */
+
+.header-font-color {
+	color: #ffffff;
+}
+
+/* Text contrast color */
+/* For text in event flags dropdown, guest toolbar and circus countdown */
+
+.custom-primary__contrast,
+.custom-primary__contrast:hover {
+	color: #ffffff;
+}
+
+/* Main colors */
+
+.guest-toolbar__right a:hover,
+.guest-toolbar__right a:active,
+.guest-toolbar__right a:focus {
+	background: #5c7f70;
+}
+
+/* Premium layout's specific declarations */
+/* Legacy */
+
+.pre-header--legacy {
+	background-color: #83a697;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.pre-header--legacy {
+		background-color: #83a697;
+	}
+}
+
+.legacy-menu .menu-wedding.custom-menu__bg-sec li.active,
+.legacy-menu .menu-wedding.custom-menu__bg-sec li:hover {
+	background-color: #83a697;
+	color: #faf0e6;
+}
+
+/* Romantic */
+
+.names-nexo--romantic {
+	box-shadow: 0 0 0 5px #83a697;
+}
+
+/* Lightbrown */
+
+.lightbrown-menu .custom-menu__bg-sec li .custom-menu__link {
+	background-color: #83a697;
+	color: #83a697;
+}
+
+.lightbrown-menu .custom-menu__bg-sec li.active .custom-menu__link,
+.lightbrown-menu .custom-menu__bg-sec li:hover .custom-menu__link {
+	background-color: #83a697;
+	color: #faf0e6;
+}
+
+/* Sumptuous */
+
+.sumptuous-header__menu {
+	background: rgba(255,255,255,0.01);
+	border-color: #ffffff;
+}
+
+.sumptuous-header__menu .menu-wedding li.active a,
+.sumptuous-header__menu .menu-wedding li a:hover {
+	border-bottom: 2px solid #faf0e6;
+}
+
+.sumptuous-header .countdown-theme .count {
+	border-color: #ffffff;
+}
+
+.sumputous-login__header-nav .header-event__button {
+	background: #5c7f70;
+}
+
+	/* Countdown font */
+
+	.sumptuous-header .countdown-theme .count {
+		font-family: "Josefin Sans", sans-serif;
+	}
+
+.agenda-event__when__date {
+	background-color: #83a697;
+	color: #faf0e6;
+}
